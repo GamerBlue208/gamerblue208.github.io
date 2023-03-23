@@ -43,13 +43,13 @@ h1.index {
     color: #0000ff;
     font-family: 'GoodT';
     font-weight: bold;
-    font-size: 100px;
+    font-size: 45px;
 }
 
 h1.shenanigans {
     color: #0000ff;
     font-family: 'Pijamas';
-    font-weight: bold;
+    font-weight: bolder;
     font-size: 100px;
 }
 /* Headers */
