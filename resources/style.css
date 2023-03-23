@@ -1,0 +1,60 @@
+body {
+    background-color: #0d1117;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Fonts */
+@font-face {
+    font-family: "GoodT";
+    src: url("/resources/fonts/good-times.rg-regular.otf");
+}
+
+@font-face {
+    font-family: "Pijamas";
+    src: url("/resources/fonts/Pijamas-ejPO.ttf");
+}
+/* Fonts */
+
+
+/*  Buttons  */
+button {
+    font-family: monospace;
+    background-color: #f3f7fe;
+    color: #3b82f6;
+    border: none;
+    border-radius: 8px;
+    width: fit-content;
+    height: 45px;
+    transition: .3s;
+    margin: 10px;
+}
+  
+button:hover {
+    background-color: #3b82f6;
+    box-shadow: 0 0 0 5px #3b83f65f;
+    color: #ffffff;
+    cursor: pointer;
+}
+/* Buttons */
+
+
+/* Headers */
+h1.index {
+    color: #0000ff;
+    font-family: 'GoodT';
+    font-weight: bold;
+    font-size: 100px;
+}
+
+h1.shenanigans {
+    color: #0000ff;
+    font-family: 'Pijamas';
+    font-weight: bold;
+    font-size: 100px;
+}
+/* Headers */
+
+p {
+    color: #ffffff;
+    font-size: x-large;
+}
