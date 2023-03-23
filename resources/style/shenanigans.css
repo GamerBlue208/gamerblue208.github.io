@@ -4,16 +4,13 @@
 }
 
 h1 {
+    color: whitesmoke;
     font-family: 'Pijamas';
     font-weight: 150;
     font-size: 150px;
 }
 
 p {
+    color: white;
     font-size: x-large;
-}
-
-p1 {
-    font-weight: 100;
-    font-size: larger;
 }

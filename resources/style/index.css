@@ -4,11 +4,13 @@
 }
 
 h1 {
+    color: blue;
     font-family: 'GoodT';
     font-weight: 600;
     font-size: 300;
 }
 
 p {
+    color: white;
     font-size: x-large;
 }

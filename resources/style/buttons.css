@@ -1,3 +1,7 @@
+body {
+    background-color: black;
+}
+
 button {
     font-family: monospace;
     background-color: #f3f7fe;
