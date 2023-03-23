@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "Pijamas";
+    src: url("/resources/fonts/Pijamas-ejPO.ttf");
+}
+
+h1 {
+    font-family: 'Pijamas';
+    font-weight: 600;
+    font-size: xx-large;
+}
+
+p {
+    font-size: x-large;
+}
+
+p1 {
+    font-weight: 100;
+    font-size: larger;
+}

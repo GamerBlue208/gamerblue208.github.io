@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "GoodT";
+    src: url("/resources/fonts/good-times.rg-regular.otf");
+}
+
+h1 {
+    font-family: 'GoodT';
+    font-weight: 600;
+    font-size: xx-large;
+}
+
+p {
+    font-size: x-large;
+}
+
+p1 {
+    font-weight: 100;
+    font-size: larger;
+}
