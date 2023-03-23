@@ -6,12 +6,12 @@ body {
 /* Fonts */
 @font-face {
     font-family: "GoodT";
-    src: url("/resources/fonts/good-times.rg-regular.otf");
+    src: url("/resources/fonts/GoodTimes.otf");
 }
 
 @font-face {
     font-family: "Pijamas";
-    src: url("/resources/fonts/Pijamas-ejPO.ttf");
+    src: url("/resources/fonts/Pijamas.ttf");
 }
 /* Fonts */
 
