@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="200.417 195 599.166 569.84" xmlns="http://www.w3.org/2000/svg">
+  <path style="fill:#5e9f41" id="star" d="M 500,195 570.53423,412.91796 799.58281,412.65965 614.12678,547.08204 685.15235,764.84036 500,630 314.84764,764.84035 385.87322,547.08204 200.4172,412.65964 l 229.04857,0.25832 z"/>
+  <circle style="fill:#000000" id="joystick_ball" cx="500" cy="438.5" r="35.5"/>
+  <rect style="fill:#000000" id="joystick_stick" width="24" height="58" x="488" y="472"/>
+  <rect style="fill:#000000" id="joystick_base" width="150" height="67.71138" x="425" y="529" rx="10"/>
+</svg>
