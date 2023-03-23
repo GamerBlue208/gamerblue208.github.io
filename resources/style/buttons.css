@@ -2,10 +2,6 @@ body {
     background-color: #000000;
 }
 
-mark.COBL {
-    color: #00ffff;
-}
-
 button {
     font-family: monospace;
     background-color: #f3f7fe;
