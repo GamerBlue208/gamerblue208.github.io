@@ -3,20 +3,21 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-button {
+button.shenanigans {
     font-family: monospace;
     background-color: #f3f7fe;
     color: #3b82f6;
     border: none;
     border-radius: 8px;
-    width: 100px;
+    width: 120px;
     height: 45px;
     transition: .3s;
+    margin: 10px;
 }
   
-button:hover {
+button.shenanigans:hover {
     background-color: #3b82f6;
     box-shadow: 0 0 0 5px #3b83f65f;
-    color: #fff;
+    color: #ffffff;
     cursor: pointer;
 }
