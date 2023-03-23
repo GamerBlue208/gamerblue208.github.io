@@ -1,6 +1,6 @@
 # gamerblue208.github.io
 
-This are the files to the "gamerblue208.github.io" my programming blog website :D
+This are the files to my [programming blog website](gamerblue208.github.io) :D
 
 
 This is my logo, btw. (when the website is all done i will remake it :D)
