@@ -49,6 +49,7 @@ h1.index {
 h1.shenanigans {
     color: #ffffff;
     font-family: 'Pijamas';
+    font-weight: normal;
     font-size: 100px;
 }
 /* Headers */
