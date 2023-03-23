@@ -4,6 +4,6 @@ This are the files to my [programing blog website](https://gamerblue208.github.i
 
 
 This is my logo, btw. (when the website is all done i will remake it in SVG :D)
-![SHENANIGANS-LOGO-NOBG](https://gamerblue208.github.io/resources/images/shenanigans-logo.png)
+![shenanigans-logo](https://gamerblue208.github.io/resources/images/shenanigans-logo.png)
 
 # UwU
