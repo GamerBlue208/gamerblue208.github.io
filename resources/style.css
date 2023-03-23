@@ -44,6 +44,7 @@ h1.index {
     font-family: 'GoodT';
     font-weight: bold;
     font-size: 45px;
+    margin: 20px;
 }
 
 h1.shenanigans {
@@ -51,6 +52,7 @@ h1.shenanigans {
     font-family: 'Pijamas';
     font-weight: normal;
     font-size: 100px;
+    margin: 20px;
 }
 /* Headers */
 
