@@ -43,7 +43,7 @@ h1.index {
     color: #0000ff;
     font-family: 'GoodT';
     font-weight: bold;
-    font-size: 45px;
+    font-size: 100px;
     margin: 20px;
 }
 
@@ -54,6 +54,15 @@ h1.shenanigans {
     font-size: 100px;
     margin: 20px;
 }
+
+h1.four {
+    color: #ffffff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: normal;
+    font-size: 100px;
+    margin: 20px;
+}
+
 /* Headers */
 
 p {
