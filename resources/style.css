@@ -114,3 +114,8 @@ p {
     color: #ffffff;
     font-size: x-large;
 }
+
+div.text {
+    width: 80%;
+    word-wrap: normal;
+}
