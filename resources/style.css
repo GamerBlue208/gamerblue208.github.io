@@ -59,20 +59,14 @@ header ul li a:hover, header ul li a.active {
 
 
 /*  Buttons  */
-a {
+#button {
     text-decoration: none;
-}
-
-a:hover {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-button {
+    font-size: 15px;
     font-family: monospace;
     background-color: #f3f7fe;
     color: #3b82f6;
     border: none;
+    padding: 8px 6px 8px 6px;
     border-radius: 8px;
     width: fit-content;
     height: 45px;
@@ -80,7 +74,8 @@ button {
     margin: 10px;
 }
   
-button:hover {
+#button:hover {
+    text-decoration: none;
     background-color: #3b82f6;
     box-shadow: 0 0 0 5px #3b83f65f;
     color: #ffffff;
