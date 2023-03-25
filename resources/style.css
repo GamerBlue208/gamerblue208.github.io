@@ -12,35 +12,36 @@ body {
 /* Width */
 ::-webkit-scrollbar {
     width: 5px;
-  }
+    height: 5px;
+}
 
 /* Width 2 */
 ::-webkit-scrollbar:horizontal {
     width: 5px;
 }
 
-  /* Track */
-  ::-webkit-scrollbar-track {
+/* Track */
+::-webkit-scrollbar-track {
     display: none; 
-  }
+}
 
-  /* Track 2 */
-  ::-webkit-scrollbar-corner {
+/* Track 2 */
+::-webkit-scrollbar-corner {
     display: none; 
-  }
+}
    
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
+/* Handle */
+::-webkit-scrollbar-thumb {
     background: #888;
     border-radius: 15px;
     transition: 0.3;
-  }
+}
   
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
+/* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
     background: #555;
     opacity: 0.3;
-  }
+}
 /* Scrollbar */
 
 
