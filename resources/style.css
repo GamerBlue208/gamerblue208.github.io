@@ -1,12 +1,37 @@
 body {
+    background: linear-gradient( #00FFFF, #0d1117 360px);
     background-color: #0d1117;
-    background: linear-gradient(to bottom, #00FFFF, #0d1117 33%);
-    height: 100%;
-    margin: 0;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     font-family: Arial, Helvetica, sans-serif;
+    overflow: overlay;
 }
+
+/* Scrollbar */
+
+/* Width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    display: none; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 15px;
+    transition: 0.3;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    opacity: 0.3;
+  }
+/* Scrollbar */
+
 
 /* Fonts */
 @font-face {
@@ -22,7 +47,7 @@ body {
 
 
 /* Header */
-header {
+#header {
     width: calc(100% - 50px);
     position: absolute;
     top: 0;
@@ -32,20 +57,22 @@ header {
     display: flex;
     align-items: left;
     justify-content: space-between;
+    transition: background 0.3s;
 }
 
-header ul {
+#header ul {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-header ul li {
+#header ul li {
     list-style: none;
     margin-left: 20px;
+    align-items: center;
 }
 
-header ul li a {
+#header ul li a {
     text-decoration: none;
     color: #ffffff;
     padding: 0px 0px;
@@ -54,7 +81,7 @@ header ul li a {
     transition: .3s;
 }
 
-header ul li a:hover, header ul li a.active {
+#header ul li a:hover, #header ul li a.active {
     margin-right: 0;
     padding: 6px 15px;
     background: #ffffff;
@@ -94,7 +121,7 @@ h1.index {
     color: #0000ff;
     font-family: 'GoodT';
     font-weight: bold;
-    font-size: 80px;
+    font-size: 110px;
     margin: 20px;
 }
 
