@@ -47,13 +47,13 @@ header ul li {
 
 header ul li a {
     text-decoration: none;
-    padding: 6px 15px;
     color: #ffffff;
     border-radius: 20px;
     transition: .3s;
 }
 
 header ul li a:hover, header ul li a.active {
+    padding: 6px 15px;
     background: #ffffff;
     color: #3b82f6;
 }
