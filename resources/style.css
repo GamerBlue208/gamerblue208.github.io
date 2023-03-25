@@ -48,6 +48,7 @@ header ul li {
 header ul li a {
     text-decoration: none;
     color: #ffffff;
+    padding: 0px 0px;
     border-radius: 20px;
     transition: .3s;
 }
