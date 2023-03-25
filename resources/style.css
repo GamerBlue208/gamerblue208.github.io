@@ -1,6 +1,7 @@
 body {
     background: linear-gradient( #00FFFF, #0d1117 360px);
     background-color: #0d1117;
+    background-size: auto;
     background-repeat: no-repeat;
     font-family: Arial, Helvetica, sans-serif;
     overflow: overlay;
@@ -12,7 +13,12 @@ body {
 ::-webkit-scrollbar {
     width: 5px;
   }
-  
+
+/* Width 2 */
+::-webkit-scrollbar:horizontal {
+    width: 5px;
+}
+
   /* Track */
   ::-webkit-scrollbar-track {
     display: none; 
