@@ -4,6 +4,7 @@ body {
     background-repeat: repeat-x;
     font-family: Arial, Helvetica, sans-serif;
     overflow: overlay;
+    size: 100%;
 }
 
 /* Scrollbar */
