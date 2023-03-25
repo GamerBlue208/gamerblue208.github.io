@@ -17,6 +17,11 @@ body {
   ::-webkit-scrollbar-track {
     display: none; 
   }
+
+  /* Track 2 */
+  ::-webkit-scrollbar-corner {
+    display: none; 
+  }
    
   /* Handle */
   ::-webkit-scrollbar-thumb {
