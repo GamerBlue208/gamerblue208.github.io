@@ -31,15 +31,14 @@ body {
    
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #888;
+    background: rgba(136, 136, 136, 0.2);
     border-radius: 15px;
     transition: 0.3;
 }
   
 /* Handle on hover */
-    ::-webkit-scrollbar-thumb:hover {
-    background: #555;
-    opacity: 0.3;
+ ::-webkit-scrollbar-thumb:hover {
+    background: rgba(85, 85, 85, 0.2);
 }
 /* Scrollbar */
 
@@ -47,7 +46,7 @@ body {
 /* Fonts */
 @font-face {
     font-family: "GoodT";
-    src: url("/resources/fonts/GoodTimes.otf");
+    src: url("/resources/fonts/Pijamas.ttf");
 }
 
 @font-face {
