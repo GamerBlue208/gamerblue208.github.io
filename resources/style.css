@@ -164,4 +164,5 @@ div.text {
 
 #content {
     background-image: url("resources/images/stars.png");
+    overflow: hidden;
 }
