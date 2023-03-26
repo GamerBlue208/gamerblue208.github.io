@@ -162,12 +162,6 @@ div.text {
     word-wrap: normal;
 }
 
-div.bg {
-    width: calc(100% - 8px);
-    height: 350px;
-    position: absolute;
-    background: url("/resources/images/stars.png");
-    background-repeat:no-repeat;
-    overflow-x: overlay;
-    z-index: -1;
+#content {
+    background-image: url("resources/images/stars.png");
 }
