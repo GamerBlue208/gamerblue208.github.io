@@ -157,10 +157,5 @@ div.text {
 
 #content {
     background-image: url("/resources/images/stars.png");
-    background-repeat: repeat;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
+    overflow: hidden;
 }
