@@ -8,6 +8,7 @@ document.addEventListener('scroll', function() {
     }
 });
 
+
 window.addEventListener('load', function() {
     const content = document.querySelector('#content');
     const contentHeight = content.offsetHeight;
