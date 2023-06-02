@@ -85,7 +85,7 @@ body {
 
 #header ul li a:hover, #header ul li a.active {
     margin-right: 0;
-    padding: 2px 15px;
+    padding: 5px 15px;
     background: #ffffff;
     color: #3b82f6;
     box-shadow: 0 0 3px 5px #3b83f65f;
