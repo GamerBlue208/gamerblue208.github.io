@@ -171,15 +171,16 @@ div.text {
     justify-content: center;
 }
 
-.cat_p {
+#cat_p {
     width: 250px;
     margin: 10px;
+    border-radius: 8px;
+    transition: .4;
 }
 
-.cat_p:hover {
+#cat_p:hover {
     width: 260px;
     margin: 12px;
     box-shadow: 0 0 0 5px #3b83f65f;
-    transition: .4;
 }
 /* Images */
