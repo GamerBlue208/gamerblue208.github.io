@@ -145,6 +145,7 @@ h1.four {
 }
 /* Titles */
 
+/* Texts */
 p {
     color: #ffffff;
     font-size: x-large;
@@ -154,12 +155,16 @@ div.text {
     width: 80%;
     word-wrap: normal;
 }
+/* Texts */
 
+/* Justification */
 #content {
     background-image: url("/resources/images/stars.png");
     overflow: hidden;
 }
+/* Justification */
 
+/* Images */
 .cat_r {
     display: flex;
     flex-direction: row;
@@ -177,3 +182,4 @@ div.text {
     box-shadow: 0 0 0 5px #3b83f65f;
     transition: .4;
 }
+/* Images */
