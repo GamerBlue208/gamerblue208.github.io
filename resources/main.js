@@ -7,14 +7,3 @@ document.addEventListener('scroll', function() {
         header.style.background = "none";
     }
 });
-
-window.addEventListener('scroll', function() {
-    var container = document.querySelector('.container');
-    var containerHeight = container.offsetHeight;
-    var windowHeight = window.innerHeight;
-    var scrollPosition = window.scrollY || window.pageYOffset;
-  
-    if (scrollPosition >= containerHeight - windowHeight) {
-      container.classList.add('animate');
-    }
-  });

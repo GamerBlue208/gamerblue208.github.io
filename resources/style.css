@@ -164,42 +164,6 @@ div.text {
 }
 /* Justification */
 
-/* Animation */
-.cat_r {
-    opacity: 0;
-}
-
-.cat_t,
-.cat_p,
-.cat_t-2 {
-  opacity: 0;
-}
-
-@keyframes fade-in {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-.cat_r {
-    opacity: 1;
-}
-.cat_t {
-  animation: fade-in 1s ease-out 0.5s forwards;
-}
-
-.cat_p {
-  animation: fade-in 1s ease-out 1s forwards;
-}
-
-.cat_t-2 {
-  animation: fade-in 1s ease-out 1.5s forwards;
-}
-/* Animation */
-
 /* Images */
 .cat_r {
     display: flex;
