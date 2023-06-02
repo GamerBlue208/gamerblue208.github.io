@@ -10,19 +10,16 @@ document.addEventListener('scroll', function() {
 
 
 window.addEventListener('load', function() {
-    const content = document.querySelector('#content');
-    const contentHeight = content.offsetHeight;
-  
     const hr = document.querySelector('#page_bottom');
-    const remainingHeight = 100 - contentHeight;
-    hr.style.marginBottom = `${remainingHeight}vh`;
-});
-  
-window.addEventListener('resize', function() {
-    const content = document.querySelector('#content');
-    const contentHeight = content.offsetHeight;
-  
-    const hr = document.querySelector('#page_bottom');
-    const remainingHeight = 100 - contentHeight;
-    hr.style.marginBottom = `${remainingHeight}vh`;
+    const bodyHeight = document.body.offsetHeight;
+    let remainingHeight = `calc(100vh - ${bodyHeight}px)`;
+    
+    if (contentHeight + bodyHeight >= window.innerHeight) {
+        // If the content and body height exceed the viewport height,
+        // set the margin bottom to 0
+        hr.style.marginBottom = '0';
+    } else {
+        // Otherwise, set the margin bottom to the remaining height
+        hr.style.marginBottom = remainingHeight;
+    }
 });
