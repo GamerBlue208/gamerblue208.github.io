@@ -173,7 +173,6 @@ div.text {
 }
 
 #cat_p {
-    flex-basis: calc(33.33% - 10px);
     width: 200px;
     height: 200px;
     margin: 10px;
