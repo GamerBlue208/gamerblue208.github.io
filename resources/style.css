@@ -164,6 +164,7 @@ div.text {
     word-wrap: normal;
     background-color: #0d1117;
     border-radius: 8px;
+    box-shadow: 0 0 8px #0d1117e6;
 }
 /* Texts */
 
