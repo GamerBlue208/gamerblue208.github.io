@@ -169,11 +169,13 @@ div.text {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 #cat_p {
-    width: 250px;
-    height: 250px;
+    flex-basis: calc(33.33% - 10px);
+    width: 200px;
+    height: 200px;
     margin: 10px;
     border-radius: 8px;
     transition: .4s;
