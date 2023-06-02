@@ -15,13 +15,13 @@ window.addEventListener('load', function() {
     const hr = document.querySelector('#page_bottom');
     const remainingHeight = 100 - contentHeight;
     hr.style.marginBottom = `${remainingHeight}vh`;
-  });
+});
   
-  window.addEventListener('resize', function() {
+window.addEventListener('resize', function() {
     const content = document.querySelector('#content');
     const contentHeight = content.offsetHeight;
   
     const hr = document.querySelector('#page_bottom');
     const remainingHeight = 100 - contentHeight;
     hr.style.marginBottom = `${remainingHeight}vh`;
-  });
+});
