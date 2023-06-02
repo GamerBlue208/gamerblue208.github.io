@@ -11,7 +11,7 @@ document.addEventListener('scroll', function() {
 window.addEventListener('load', function() {
     const content = document.getElementById('content');
     
-    if (content.offsetHeight < window.innerHeight) {
+    if (content.offsetHeight > window.innerHeight) {
       content.style.position = 'absolute';
     }
 });
