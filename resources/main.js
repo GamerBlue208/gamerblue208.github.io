@@ -12,6 +12,6 @@ window.addEventListener('load', function() {
     const content = document.getElementById('content');
     
     if (content.offsetHeight > window.innerHeight) {
-      content.style.position = 'absolute';
+      content.style.position = "absolute";
     }
 });
