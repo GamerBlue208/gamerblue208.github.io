@@ -162,6 +162,8 @@ p {
 div.text {
     width: 80%;
     word-wrap: normal;
+    background-color: #0d1117;
+    border-radius: 8px;
 }
 /* Texts */
 
