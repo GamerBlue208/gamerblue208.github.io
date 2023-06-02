@@ -178,6 +178,7 @@ div.text {
 /* Animate */
 .cat_p, .cat_t {
     opacity: 0;
+    transition: .5s;
 }
 .cat_t:focus-visible {
     opacity: 1;
