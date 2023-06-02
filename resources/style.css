@@ -90,6 +90,14 @@ body {
     color: #3b82f6;
     box-shadow: 0 0 3px 5px #3b83f65f;
 }
+
+.logo {
+    transition: .2s;
+}
+
+.logo:hover {
+    transform: scale(1.050);
+}
 /* Header */
 
 
