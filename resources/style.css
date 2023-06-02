@@ -106,7 +106,7 @@ body {
     width: fit-content;
     height: 45px;
     margin: 10px;
-    transition: .3s;
+    transition: all .3s;
 }
   
 #button:hover {
@@ -175,7 +175,7 @@ div.text {
     width: 250px;
     margin: 10px;
     border-radius: 8px;
-    transition: .4;
+    transition: all .4;
 }
 
 #cat_p:hover {
