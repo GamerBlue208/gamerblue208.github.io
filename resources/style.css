@@ -159,3 +159,14 @@ div.text {
     background-image: url("/resources/images/stars.png");
     overflow: hidden;
 }
+
+.cat_r {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.cat_p {
+    width: 200px;
+    margin: 10px;
+}
