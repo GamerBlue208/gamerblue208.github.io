@@ -106,7 +106,7 @@ body {
     width: fit-content;
     height: 45px;
     margin: 10px;
-    transition: all .3s;
+    transition: .3s;
 }
   
 #button:hover {
@@ -180,9 +180,7 @@ div.text {
 }
 
 #cat_p:hover {
-    width: 260px;
-    height: 260px;
-    margin: 12px;
     box-shadow: 0 0 0 5px #3b83f65f;
+    transform: scale(1.050);
 }
 /* Images */
