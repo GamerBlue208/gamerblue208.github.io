@@ -10,16 +10,31 @@ document.addEventListener('scroll', function() {
 
 
 window.addEventListener('load', function() {
+    const content = document.querySelector('#content');
+    const contentHeight = content.offsetHeight;
+  
     const hr = document.querySelector('#page_bottom');
-    const bodyHeight = document.body.offsetHeight;
-    let remainingHeight = `calc(100vh - ${bodyHeight}px)`;
+    let remainingHeight = Math.floor(100 - contentHeight);
     
-    if (contentHeight + bodyHeight >= window.innerHeight) {
-        // If the content and body height exceed the viewport height,
-        // set the margin bottom to 0
-        hr.style.marginBottom = '0';
-    } else {
-        // Otherwise, set the margin bottom to the remaining height
-        hr.style.marginBottom = remainingHeight;
+    if (remainingHeight < 0) {
+        // If remaining height is negative, set it to 0
+        remainingHeight = 0;
     }
+  
+    hr.style.marginBottom = `${remainingHeight}vh`;
+});
+
+window.addEventListener('resize', function() {
+    const content = document.querySelector('#content');
+    const contentHeight = content.offsetHeight;
+  
+    const hr = document.querySelector('#page_bottom');
+    let remainingHeight = Math.floor(100 - contentHeight);
+    
+    if (remainingHeight < 0) {
+        // If remaining height is negative, set it to 0
+        remainingHeight = 0;
+    }
+  
+    hr.style.marginBottom = `${remainingHeight}vh`;
 });
