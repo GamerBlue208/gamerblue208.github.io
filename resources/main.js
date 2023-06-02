@@ -8,10 +8,11 @@ document.addEventListener('scroll', function() {
     }
 });
 
-window.addEventListener('load', function() {
-    const content = document.getElementById('content');
-    
-    if (content.offsetHeight < window.innerHeight) {
-      content.style.position = "absolute";
-    }
+window.addEventListener('load', 'resize', function() {
+    const content = document.querySelector('#content');
+    const contentHeight = content.offsetHeight;
+  
+    const hr = document.querySelector('#page_bottom');
+    const remainingHeight = 100 - contentHeight;
+    hr.style.marginBottom = `${remainingHeight}vh`;
 });
