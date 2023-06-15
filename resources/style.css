@@ -84,6 +84,7 @@ body {
 }
 
 #header ul li a:hover, #header ul li a.active {
+    margin-left: 0;
     margin-right: 0;
     padding: 5px 15px;
     background: #ffffff;
