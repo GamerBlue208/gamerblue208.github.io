@@ -79,14 +79,15 @@ body {
     color: #ffffff;
     padding: 0px 0px;
     border-radius: 20px;
-    margin-right: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
     transition: .3s;
 }
 
 #header ul li a:hover, #header ul li a.active {
     margin-left: 0;
     margin-right: 0;
-    padding: 5px 15px;
+    padding: 5px 10px;
     background: #ffffff;
     color: #3b82f6;
     box-shadow: 0 0 3px 5px #3b83f65f;
