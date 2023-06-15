@@ -153,6 +153,14 @@ h1.four {
     font-size: 100px;
     margin: 20px;
 }
+
+h1.arial {
+    color: #ffffff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: normal;
+    font-size: 100px;
+    margin: 20px;
+}
 /* Titles */
 
 /* Texts */
